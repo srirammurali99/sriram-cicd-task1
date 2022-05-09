@@ -3,11 +3,11 @@ const app = express()
 
 const port = process.env.PORT || 3030;
 
-app.get('/', (req, res) => res.send('Hello World! Onexlab updated version 2'))
+app.get('/', (req, res) => res.send('Hello from Sriram'))
 
 app.listen(port, (err) => {
     if (err) {
       console.log('Error::', err);
     }
-      console.log(`Onexlab app listening on port ${port}`);
+      console.log(`sriram CICD listening on port ${port}`);
   });
