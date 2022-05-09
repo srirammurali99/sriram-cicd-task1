@@ -1,4 +1,4 @@
-node {
+node(sriram-master-node) {
     def app 
     stage('Clone repository') {
         checkout scm  
